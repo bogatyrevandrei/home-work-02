@@ -1,0 +1,33 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+.box {
+    border: black 2px dashed;
+    padding: 30px;
+
+    max-width: 500px;
+}
+.image {
+    /* display: block; */
+
+    border: orange 2px dashed;
+    margin: 0px 0px 20px 0px;
+
+    height: auto;
+    max-width: 100%;
+}
+.title {
+    border: rgb(17, 0, 255) 2px dashed;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+.text {
+    border: rgb(2, 143, 77) 2px dashed;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
+}
